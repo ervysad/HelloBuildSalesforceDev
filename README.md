@@ -1,18 +1,19 @@
-# Salesforce DX Project: Next Steps
+# Frontend SalesForce Developer at HelloBuild.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is a test for candidates applying as a Frontend SalesForce Developer at HelloBuild.
 
-## How Do You Plan to Deploy Your Changes?
+1. Edit any page in Salesforce and add a component where we can see contacts list.
+2. Create an LWC component called "ContactList" that fetches a list of Contacts from
+Salesforce and displays them in a table format. The component should have the
+following requirements:
+-The component should be able to handle errors and display an error message if the data
+fetch fails.
+-Each row in the table should display the Contact's Name, Email, and Phone fields.
+-Use the "Contact" object in Salesforce's standard schema for retrieving the data.
+-Implement proper error handling and data loading indicators if necessary.
+If you want you can use flows or apex to get data
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## About
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Dev Brian Valencia
+Salesforce Developer / Admin
